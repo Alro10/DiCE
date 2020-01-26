@@ -178,6 +178,11 @@ cannot be more than 50).
 
 For more details, check out `this <notebooks/DiCE_with_advanced_options.ipynb>`_ notebook.
 
+** Preserving Feasibility Constraints **
+
+We are working on incorporating our work on generating feasible counterfactuals https://arxiv.org/abs/1912.03277 with DiCE. Current implementations can be found in this branch; which will soon be integerated with the master. Please refer to the notebook: DiCE_getting_started_feasible.ipynb for an introduction regading the same. 
+
+
 The promise of counterfactual explanations
 -------------------------------------------
 Being truthful to the model, counterfactual explanations can be useful to all stakeholders for a decision made by a machine learning model that makes decisions.
@@ -206,7 +211,7 @@ We are working on adding the following features to DiCE:
 * Support for PyTorch and scikit-learn models
 * Support for using DiCE for debugging machine learning models
 * Support for other algorithms for generating counterfactual explanations
-* Incorporating causal constraints when generating counterfactual explanations
+* Incorporating causal constraints when generating counterfactual explanations ( Checkout the DiCE_getting_started_feasible.ipynb in notebooks )
 
 
 Contributing
